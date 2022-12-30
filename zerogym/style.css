@@ -1,0 +1,124 @@
+/*
+Theme Name: RealGym
+Theme URI: https://realgym.balcomsoft.com
+Author: Balcomsoft
+Author URI: https://balcomsoft.com/
+Description: RealGym - Fitness Elementor Wordpress Theme.
+Version: 1.0.0
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: responsive,  dark, responsive-layout, custom-menu, editor-style, featured-images, theme-options, translation-ready, elementor, fitness
+Text Domain: realgym
+*/
+
+/*************** global fonts ***************/
+@font-face {
+	font-family: 'Inter';
+	src: url(./assets/font/Inter/Inter-Regular.ttf); }
+
+@font-face {
+	font-family: 'Inter';
+	src: url(./assets/font/Inter/Inter-Medium.ttf);
+	font-weight: 500; }
+
+@font-face {
+	font-family: 'Inter';
+	src: url(./assets/font/Inter/Inter-SemiBold.ttf);
+	font-weight: 600; }
+
+@font-face {
+	font-family: 'Inter';
+	src: url(./assets/font/Inter/Inter-Bold.ttf);
+	font-weight: 700; }
+
+@font-face {
+	font-family: 'Inter';
+	src: url(./assets/font/Inter/Inter-Light.ttf);
+	font-weight: 300; }
+
+/*--------------------------------------------------------------
+Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/* by post author style */
+
+.bypostauthor { display: block; }
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+			box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+/*--------------------------------------------------------------
+Galleries
+--------------------------------------------------------------*/
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+
+/*--------------------------------------------------------------
+Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0 auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
